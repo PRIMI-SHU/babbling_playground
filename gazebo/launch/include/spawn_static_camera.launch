@@ -10,7 +10,7 @@
 
   <group ns="$(arg camera_name)">
     <param name="camera_description"
-           command="$(find xacro)/xacro '$(find fg_gazebo_example)/urdf/static_camera.urdf.xacro'
+           command="$(find xacro)/xacro '$(find babbling_example)/urdf/static_camera.urdf.xacro'
                     camera_name:=$(arg camera_name)"
     />
 

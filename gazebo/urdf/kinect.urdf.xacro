@@ -26,7 +26,7 @@
       <visual>
        <origin xyz="0 0 0" rpy="0 0 ${pi/2}"/>
         <geometry>
-         <mesh filename="package://fg_gazebo_example/meshes/kinect.dae"/>
+         <mesh filename="package://babbling_example/meshes/kinect.dae"/>
         </geometry>
       </visual>
       <collision>
